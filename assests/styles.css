@@ -2,10 +2,11 @@ body{
     background-color: black;
 }
 
-#sec1, #sec2, #sec3{
+section{
     height: 100vh;
     width: 100vw;
     position: relative;
+    overflow: hidden;
 }
 
 #sec1>h1{
@@ -51,5 +52,44 @@ body{
     left: 40vw;
     top: 43vh;
     margin: auto;
+}
+
+
+
+#sec2>img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#sec2>h1, h2{
+    color: white;
+}
+
+#sec2>h1{
+    font-family: Inter, SansSerif;
+    font-size: 10vw;
+    color: transparent;
+    -webkit-text-stroke: 3px #99A3A8;
+    padding-left: 1vw;
+
+    position: absolute;
+    top: 5vh;
+    left: -1000px;
+}
+
+#sec2>h2{
+    font-family: Inter, SansSerif;
+    font-size: 10vw;
+    color: transparent;
+    -webkit-text-stroke: 3px #99A3A8;
+    padding-left: 1vw;
+
+    position: absolute;
+    top: 25vh;
+    right: -750px;
 }
 
