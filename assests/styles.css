@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+
+#sec1, #sec2, #sec3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#sec1>h1{
+    color: white;
+    font-family: Inter, SansSerif;
+    font-size: 5vw;
+
+    position: absolute;
+    left: 35vw;
+    top: 30vh;
+    margin: auto;
+}
+
+#sec1>img{
+    width: 18%;
+    
+    rotate: 90deg;
+
+    position: absolute;
+    left: 40vw;
+    top: 43vh;
+    margin: auto;
+}
+
+
+#sec3>h1{
+    color: white;
+    font-family: Inter, SansSerif;
+    font-size: 5vw;
+
+    position: absolute;
+    left: 39vw;
+    top: 78vh;
+    margin: auto;
+}
+
+#sec3>img{
+    width: 18%;
+
+    rotate: -90deg;
+
+    position: absolute;
+    left: 40vw;
+    top: 43vh;
+    margin: auto;
+}
+
