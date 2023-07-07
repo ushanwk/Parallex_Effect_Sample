@@ -25,8 +25,8 @@
 
   <section id="sec2">
 
-      <h1>MY POERTFOLIO</h1>
-      <h2>ABOUT ME</h2>
+      <h1 id="txt1">MY PORTFOLIO</h1>
+      <h2 id="txt2">ABOUT ME</h2>
 
       <img src="assests/images/Me.png">
 
@@ -37,6 +37,21 @@
       <h1>Scroll Up</h1>
       <img src="assests/images/fast-forward.png">
   </section>
+
+
+
+    <script>
+
+        var txt1 = document.getElementById('txt1');
+        var txt2 = document.getElementById('txt2');
+
+        window.addEventListener('scroll', function (e){
+            let value = window.scrollY;
+            txt1.style.left = (value - 500) + 'px';
+            txt2.style.right = (value - 1000) + 'px';
+        })
+
+    </script>
 
 </body>
 
